@@ -60,28 +60,25 @@ This project builds a machine learning pipeline that predicts sepsis onset **6 h
 ```
 sepsis-prediction/
 │
-├── 📄 run_pipeline.py          # Run everything with one command
-├── 📄 generate_report.py       # Generate PDF methodology report
-├── 📄 requirements.txt         # All Python dependencies
-├── 📄 README.md
+├──  run_pipeline.py          # Run everything with one command
+├──  generate_report.py       # Generate PDF methodology report
+├──  requirements.txt         # All Python dependencies
+├──  README.md
 │
-├── 📁 src/
+├──  src/
 │   ├── preprocess.py           # Data loading, imputation, feature engineering
 │   ├── label_noise.py          # Cleanlab confident learning
 │   ├── train.py                # XGBoost model training
 │   └── evaluate.py             # All evaluation plots and metrics
 │
-├── 📁 results/                 # Generated after running pipeline
+├──  results/                 # Generated after running pipeline
 │   ├── confusion_matrix.png
 │   ├── roc_curve.png
 │   ├── calibration_curve.png
 │   ├── pr_curve.png
 │   └── metrics.csv
 │
-├── 📁 data/
-│   └── README.md               # Instructions to download dataset
-│
-└── 📁 notebooks/
+└──  notebooks/
     └── exploratory_analysis.ipynb
 ```
 
