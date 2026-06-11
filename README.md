@@ -1,11 +1,11 @@
-# 🏥 Early Sepsis Onset Prediction
+#  Early Sepsis Onset Prediction
 ### PhysioNet/Computing in Cardiology Challenge 2019
 
 > Predicting sepsis **6 hours before clinical diagnosis** using ICU time-series data — with label noise mitigation, temporal leakage prevention, and model calibration.
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Project Structure](#project-structure)
@@ -37,7 +37,7 @@ This project builds a machine learning pipeline that predicts sepsis onset **6 h
 ## Dataset
 
 **PhysioNet/Computing in Cardiology Challenge 2019**  
-📥 Download: https://physionet.org/content/challenge-2019/1.0.0/
+ Download: https://physionet.org/content/challenge-2019/1.0.0/
 
 - **40,336 ICU patients** from 2 hospital systems (Beth Israel Deaconess + Emory University)
 - **40 clinical variables**: 8 vital signs, 26 lab values, 6 demographics
